@@ -19,9 +19,12 @@
   },
   "homepage": "https://github.com/aloisiomartinez/tickets-api-node#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3"
   },
   "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
     "@types/express": "^5.0.5",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
